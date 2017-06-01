@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="SinglePageMultiFolderMultiIcon" type="PLAIN_TEXT" />
+      <mapping pattern="mi_system_apps" type="PLAIN_TEXT" />
+      <mapping pattern="SinglePageFolderWithNoName" type="XML" />
+      <mapping pattern="dockandpageswithfolder" type="XML" />
+      <mapping pattern="SinglePageSingleFolderMultiIcon" type="XML" />
+      <mapping pattern="MultiAppDock" type="XML" />
+    </extensionMap>
+  </component>
+</application>
