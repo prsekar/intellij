@@ -1,5 +1,17 @@
 <application>
   <component name="EqualsHashCodeTemplates">
-    <option name="defaultTempalteName" value="Equals/HashCodeBuilder (Apache commons-lang 3) equals" />
+    <option name="defaultTempalteName" value="P-Equals/HashCodeBuilder (Apache commons-lang 3) equals" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="P-Equals/HashCodeBuilder (Apache commons-lang 3) equals" />
+          <option name="template" value="#parse(&quot;equalsHelper.vm&quot;)&#10;public boolean equals(##&#10;#if ($settings.generateFinalParameters)&#10;  final ##&#10;#end&#10;Object $paramName){&#10;  if(this == $paramName) {&#10;    return true;&#10;  }&#10;&#10;  #addInstanceOfToText()&#10;&#10;  #addClassInstance()&#10;&#10;  return new org.apache.commons.lang3.builder.EqualsBuilder()&#10;  #if($superHasEquals)&#10;    .appendSuper(super.equals($paramName))&#10;  #end&#10;  #foreach($field in $fields)&#10;    .append(this.$field.accessor, ${classInstanceName}.$field.accessor)&#10;  #end&#10;    .isEquals();&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="P-Equals/HashCodeBuilder (Apache commons-lang 3) hashCode" />
+          <option name="template" value="public int hashCode() {&#10;  return new org.apache.commons.lang3.builder.HashCodeBuilder(17, 37)&#10;  #if($superHasHashCode)&#10;    .appendSuper(super.hashCode())&#10;  #end&#10;  #foreach($field in $fields)&#10;    .append(this.$field.accessor)&#10;  #end&#10;    .toHashCode();&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
   </component>
 </application>
