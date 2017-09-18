@@ -1,8 +1,8 @@
 <code_scheme name="Karby">
   <option name="GENERATE_FINAL_LOCALS" value="true" />
   <option name="GENERATE_FINAL_PARAMETERS" value="true" />
-  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="250" />
-  <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1" />
+  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1000" />
+  <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1000" />
   <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
     <value />
   </option>
