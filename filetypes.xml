@@ -10,6 +10,7 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="wrappedappconfiguration" type="PLAIN_TEXT" />
       <mapping ext="cer" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping pattern="MultiAppDock" type="XML" />
       <mapping pattern="SinglePageFolderWithNoName" type="XML" />
       <mapping pattern="SinglePageSingleFolderMultiIcon" type="XML" />
