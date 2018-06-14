@@ -8,6 +8,7 @@
       <mapping pattern="mi_system_apps" type="PLAIN_TEXT" />
       <mapping pattern="resources" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="adoc" type="PLAIN_TEXT" />
       <mapping ext="wrappedappconfiguration" type="PLAIN_TEXT" />
       <mapping ext="cer" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
