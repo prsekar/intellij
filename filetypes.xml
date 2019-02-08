@@ -1,8 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="Jenkinsfile" type="Groovy" />
-      <removed_mapping pattern="Jenkinsfile" type="Jenkins file" />
       <mapping ext="token" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
