@@ -1,0 +1,27 @@
+<application>
+  <component name="libraryTable">
+    <library name="Home">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/demo/nio/zipfs" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/annotations/DependencyChecker/PluginChecker/src" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/annotations/DependencyChecker/Plugins/src" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/annotations/Validator/src" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/forkjoin/mergesort" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/jmx/jmx-scandir/src" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/jmx/jmx-scandir/test" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/lambda/BulkDataOperations/src" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/lambda/DefaultMethods" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/nio/chatserver" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/nio/file" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/nio/multicast" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/nio/server" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/scripting/scriptpad/src" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/sample/try-with-resources/src" />
+        <root url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home" />
+      </SOURCES>
+      <jarDirectory url="file:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home" recursive="false" type="SOURCES" />
+    </library>
+  </component>
+</application>
